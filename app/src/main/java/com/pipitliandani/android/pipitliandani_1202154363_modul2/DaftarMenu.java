@@ -33,13 +33,25 @@ public class DaftarMenu extends AppCompatActivity {
         listGambar = new ArrayList<>(); //menambahkan gambar kedalam arraylist
         listGambar.add("ayam_goreng");
         listGambar.add("nasi_goreng");
+        listGambar.add("ayam_geprek");
+        listGambar.add("cumi");
+        listGambar.add("ikan_bakar");
+        listGambar.add("sayur_asem");
 
         listTitle = new ArrayList<>(); //menambahkan judul kedalam arraylist
-        listTitle.add("Ayam Goreng Geprek");
+        listTitle.add("Ayam Goreng");
         listTitle.add("Nasi Goreng");
+        listTitle.add("Ayam Geprek");
+        listTitle.add("Cumi Asam Manis Pedas");
+        listTitle.add("Ikan Bakar");
+        listTitle.add("Sayur Asem");
 
         listPrice = new ArrayList<>(); //menambahkan harga kedalam arraylist
-        listPrice.add("50.000");
-        listPrice.add("10.000");
+        listPrice.add("25.000");
+        listPrice.add("20.000");
+        listPrice.add("25.000");
+        listPrice.add("30.000");
+        listPrice.add("45.000");
+        listPrice.add("15.000");
     }
 }
