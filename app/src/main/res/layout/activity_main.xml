@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pipitliandani.android.pipitliandani_1202154363_modul2.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/images" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:text="Pesan Sekarang"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Pilih Menu"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="20sp
+"
+        android:layout_below="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/dineIn"
+            android:layout_width="187dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:text="Dine In"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/takeaway"
+            android:layout_width="150dp"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:text="Take Away"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+</RelativeLayout>
